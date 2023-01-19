@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+    <h1 class="text-center">form!</h1>
+
+    <section class="container my-5 w-50 mx-auto border border-4 border-primary p-4">
+        <form>
+            <div class="mb-3">
+                <label for="exampleInputName" class="form-label">Name</label>
+                <input placeholder="Name" type="name" class="form-control" id="exampleInputName" aria-describedby="">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputUserName" class="form-label">UserName</label>
+                <input placeholder="UserName" type="name" class="form-control" id="exampleInputUserName"
+                    aria-describedby="">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email</label>
+                <input placeholder="Email" type="email" class="form-control" id="exampleInputEmail1"
+                    aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input placeholder="Password" type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputConfirmPassword1" class="form-label">Confirm Password</label>
+                <input placeholder="Confirm Password" type="password" class="form-control"
+                    id="exampleInputConfirmPassword1">
+            </div>
+            <div class="form-floating mb-4">
+                <p>
+                    <label for="floatingTextarea2" class="mb-2">Message</label>
+                    <textarea class="form-control" placeholder="Message" id="floatingTextarea2"
+                        style="height: 80px"></textarea>
+                </p>
+                <!-- <label for="floatingTextarea2">Message</label> -->
+            </div>
+
+            <button type="submit" class="btn btn-primary w-100">Send</button>
+        </form>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
